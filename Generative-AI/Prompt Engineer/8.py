@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 # Create client
-client = OpenAI(api_key="AIzaSyDNdYAayZ76fJZdo_4umbP-VAcgxegcge4")
+client = OpenAI(api_key="YOUR_API_KEY")
 def retriever_info(query):
     # Dummy retriever (replace with vector DB / FAISS later)
     return "Elon Musk is the CEO of Tesla and SpaceX."

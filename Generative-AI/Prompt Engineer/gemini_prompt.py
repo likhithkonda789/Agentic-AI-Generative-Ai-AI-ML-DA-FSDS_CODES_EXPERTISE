@@ -11,7 +11,7 @@ st.title("🤖 Prompt engineering using Gemini ")
 api_key = st.text_input("🔑 Enter your Gemini API Key", type="password")
 
 if api_key:
-    genai.configure(api_key="AIzaSyDNdYAayZ76fJZdo_4umbP-VAcgxegcge4")
+    genai.configure(api_key="YOUR_API_KEY")
 
     # Dummy retriever for demonstration
     def retriever_info(query):

@@ -2,8 +2,8 @@ import os
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPER_API_KEY"] = "b0453d1277179c9da9785947336cc72439ad869a" # serper.dev API key
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
+os.environ["SERPER_API_KEY"] = "YOUR_API_KEY" # serper.dev API key
 
 # You can choose to use a local model through Ollama for example. See https://docs.crewai.com/how-to/LLM-Connections/ for more information.
 

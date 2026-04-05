@@ -6,10 +6,10 @@ from langchain_core.output_parsers import StrOutputParser
 # ==============================
 # 🔐 API KEYS & LANGSMITH SETUP
 # ==============================
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDNdYAayZ76fJZdo_4umbP-VAcgxegcge4"
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
 # Enable LangSmith tracing
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "YOUR_API_KEY"
 # ==============================
 # 🧠 Prompt Template
 # ==============================

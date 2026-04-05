@@ -7,13 +7,13 @@ import streamlit as st
 import os
 #from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"] = "AIzaSyBmHhSrU2YzPMJJNTTwC896xiwF49yDuT4"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 #os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 
 ## Langmith tracking
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 
-os.environ["LANGCHAIN_API_KEY"]= "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"
+os.environ["LANGCHAIN_API_KEY"]= "YOUR_API_KEY"
 #os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
 
